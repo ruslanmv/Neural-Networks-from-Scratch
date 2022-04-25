@@ -83,3 +83,4 @@ experimental/
 model_test/
 clean/
 model*
+checkpoint
