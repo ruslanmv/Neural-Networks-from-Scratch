@@ -654,3 +654,30 @@ for e in range(EPOCHS):
 %load_ext tensorboard
 %tensorboard --logdir log
 ```
+
+### Top useful practices for Machine Learning
+
+The following are some useful practices may help you to debug / improve the network:
+
+**1. About the datasets**
+
+- Is the datasets balanced with distortions?
+- Get more training data .
+- Add data augmentation if possible.
+- Normalising data.
+- Feature engineering.
+
+**2. About the network**
+
+- Is the network size is too small / large?
+- Check overfitting or underfitting by train history, then chose the best epoch size.
+- Try initialise weights with different initialization scheme.
+- Try different activation functions, loss function, optimizer.
+- Change layers number and units number.
+- Change batch size.
+- Add dropout layer.
+
+And for more deeply analyse, the following articles may be helpful to you:
+
+- [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
+- [How to debug neural networks. Manual](https://hackernoon.com/how-to-debug-neural-networks-manual-dc2a200f10f2)
