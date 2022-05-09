@@ -84,4 +84,4 @@ model_test/
 clean/
 model*
 checkpoint
-mmorpg-0.001-alex-adapted.model.meta
+mmorpg-*
