@@ -58,11 +58,7 @@ x_training_data.shape
 ```
 
 
-
-
     (250, 270)
-
-
 
 There are 250 pictures with resolutionn WIDTH = 480 and HEIGHT = 270 with 3 colors rgb
 
