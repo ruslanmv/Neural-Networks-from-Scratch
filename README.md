@@ -12,7 +12,6 @@ What I want to predict are the keys of a gamepad of a gameplay of one videogame
 
 # Installing Libaries
 
-
 ```
 !pip install tensorboard
 !pip install jupyter-tensorboard
