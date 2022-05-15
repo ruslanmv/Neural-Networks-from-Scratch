@@ -43,7 +43,6 @@ HEIGHT = 270
 First you should download the data for this project.
 The data were obtained from the MMORPG Project here. I will take an small dataset , just for didactical purposes.
 
-
 ```python
 #We load the images of the gameplay
 x_training_data=pd.read_pickle('data/dfx-0.pkl')  
@@ -62,7 +61,6 @@ x_training_data.shape
 There are 250 pictures with resolutionn WIDTH = 480 and HEIGHT = 270 with 3 colors rgb
 
 We define some helper functions
-
 
 ```python
 def df_to_numpy_image(df_image_clean,index):
