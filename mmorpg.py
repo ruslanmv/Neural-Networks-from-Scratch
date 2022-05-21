@@ -54,3 +54,10 @@ def show_actions(X,Y,index_to_select):
     df_pred_transposed = df_pred.T 
     print(df_pred_transposed) 
     showarray(X[index_to_select])
+    
+    
+    
+#round a float up to next even number
+import math
+def roundeven(f):
+    return math.ceil(f / 2.) * 2
